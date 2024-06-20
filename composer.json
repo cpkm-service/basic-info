@@ -1,0 +1,24 @@
+{
+    "name": "cpkm/basic-info",
+    "autoload": {
+        "psr-4": {
+            "Cpkm\\Basic\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cpkm\\Basic\\BasicServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Henry",
+            "email": "asdcxz179@gmail.com"
+        }
+    ],
+    "require": {
+        "Cpkm/Admin": "*"
+    }
+}
