@@ -67,7 +67,7 @@
         function(){
         },
         {
-            ordering:false,
+            ordering:true,
             order:[[0,'asc']]
         }
     );
